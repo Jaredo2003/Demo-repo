@@ -13,6 +13,7 @@
 #         tries = tries - 1
 # except ValueError:
 #     print("Thats not a number")
+#     quit
 
 # i = 0
 # while i < 6:
@@ -21,10 +22,9 @@
 #         continue
 #     print(i)
 
-
 # for i in range(1,6):
 #     if i == 5:
-#         break
+#         continue
 #     print(i)
 #
 # for i in range(1,7):

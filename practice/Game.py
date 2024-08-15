@@ -4,7 +4,7 @@ score = 0
 
 choose = input("Do you want to play? : ")
 if choose.casefold() != "yes":
-    print("ok sure i dont need your bitch ass taking my quiz")
+    print("ok sure i dont need you taking my quiz")
     quit()
 else:
     print("Sure lets play")

@@ -99,11 +99,11 @@ speed = [s.upper() for s in cars
  courses["year"] = ["2001","2003","2002"]
  print(courses.get("year"))
 
- def myshit(**parts):
+ def mysh(**parts):
      price = 800
      print(parts["gpu"] ,f"cost {price} dollars in the US")
 
- myshit(gpu = "RTX 4090",GPU = "GT 730")
+ mysh(gpu = "RTX 4090",GPU = "GT 730")
 
  def argumento(x):
      print(x)
